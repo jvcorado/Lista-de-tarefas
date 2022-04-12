@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body class="bg-dark text-white ">
+    <div class="container-fluid d-flex flex-column align-items-center bg-light w-50 vh-100">
+        <h1 class="text-success">Lista de tarefas</h1>
+        <div class="class d-flex flex-column align-items-start justify-content-start w-50 p-3">
+            <input type="text" placeholder="Digite a tarefa" id="add" class="w-100 mb-2 p-2">
+            <input type="date" name="data" id="data" class="w-100 mb-2  p-2">
+            <input type="time" name="time" id="time" class="w-100 mb-2  p-2">
+            <input type="button" value="adicionar" id="btn-add" onclick="adicionar()" class="w-100 btn btn-success mb-2">
+            <input type="button" value="limpar" id="btn-add" onclick="limpar()" class=" w-100 btn btn-danger">
+            <div class="res w-100 p-3 text-dark">
+             
+            </div>
+        </div>
+    </div>
+    <script src="js/js.js"></script>
+</body>
+</html>

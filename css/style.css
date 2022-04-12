@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width:500px) {
+    .container-fluid{
+        padding: 30px;
+        width: 100vw !important;
+    }
+    .class{
+        width: 100vw !important;
+    }
+    
+}
