@@ -9,9 +9,13 @@ function adicionar(){
         alert('Valor invalido')
     }
     else{array.push(valor.value, data.value,time.value)
-        let lista = array;
-        res.innerHTML = lista;
-        valor.value = ''
+
+        for (const key in array) {
+            let lista = object[key];
+            res.innerHTML = lista;
+            valor.value = ''   
+        }
+         
     }
     
 }
