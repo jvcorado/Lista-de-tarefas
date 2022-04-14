@@ -15,7 +15,7 @@ function adicionar(){
         let lista = array;
         res.innerHTML = lista;
         valor.value = ''
-
+    }
 }
 
 function limpar(){
