@@ -11,10 +11,12 @@ function adicionar(){
         res.innerHTML = "<br/>"
     }
     else{
-        array.push(valor.value,data.value,time.value)
-        let lista = array;
-        res.innerHTML = lista;
-        valor.value = ''
+        for(let i = 0; i < array.length; i++){
+            array.push(valor.value,data.value,time.value)
+            let lista = array;
+            res.innerHTML = lista;
+            valor.value = ''
+        }
     }
 }
 
