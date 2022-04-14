@@ -4,11 +4,14 @@ let data = document.querySelector('#data')
 let res = document.querySelector('.res')
 let array = [];
 
+
 function adicionar(){
     if(valor.value == ''){
         alert('Valor invalido')
+        res.innerHTML = "<br/>"
     }
-    else{array.push(valor.value, data.value,time.value)
+    else{
+        array.push(valor.value,data.value,time.value)
         let lista = array;
         res.innerHTML = lista;
         valor.value = ''
